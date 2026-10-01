@@ -2,7 +2,7 @@
 """
 PoC — WPForms Lite <= 2.0.2.1: incomplete fix of CVE-2026-88996.
 Unauthenticated reflected XSS via Smart Tag at attribute-NAME position.
-
+#author dorkerdevil
 Usage:
   python3 poc.py                          # against the local rig
   python3 poc.py --url http://site/page/  # any WPForms page (form auto-discovered)
