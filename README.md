@@ -3,12 +3,20 @@
 **Affected:** WPForms – AI Form Builder for WordPress (free/lite), version 2.0.2.1 — the
 current latest at time of disclosure (also the version that *contains* the fix for
 CVE-2026-88996). The Pro edition shares the Smart Tag renderer.
+
 **Class:** Unauthenticated reflected cross-site scripting (CWE-79) with verified JavaScript
 execution, via incomplete fix of CVE-2026-88996 / GHSA-8j5g-9vmv-9mmw.
-**Discovered:** 2026-09-27 · **Reported to Patchstack:** 2026-09-27 · **Declined:**
+
+**Discovered:** 2026-09-27 · 
+
+**Reported to Patchstack:** 2026-09-27 · 
+
+**Declined:**
 2026-09-28 ("the issue only appears when the site administrator has written a bare Smart
 Tag where an HTML attribute name belongs... not a default setup or a pattern anyone would
-realistically author" — technical validity not disputed) · **Public:** 2026-09-28.
+realistically author" — technical validity not disputed) · 
+
+**Public:** 2026-09-28.
 
 ## Summary
 
@@ -90,3 +98,7 @@ and permit Smart Tag substitution only in text and quoted-attribute-value positi
 
 For authorized testing and educational purposes only. The reporter publishes this after
 a coordinated-submission attempt was declined; the technical finding was not disputed.
+
+## Author
+
+Ashish Kunwar (@D0rkerdevil)
