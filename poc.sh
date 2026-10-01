@@ -1,4 +1,5 @@
 #!/bin/bash
+#author dorkerdevil
 # PoC: WPForms Lite 2.0.2.1 — incomplete fix of CVE-2026-88996
 # Anonymous reflected XSS via smart tag at attribute-NAME position.
 # Rig: WP 7.1.2 + WPForms Lite 2.0.2.1, form 17 on page 18 with confirmation:
